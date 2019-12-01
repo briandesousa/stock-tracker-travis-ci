@@ -1,2 +1,5 @@
 language: node_js
 node_js: 12
+deploy:
+  provider: azure_web_apps
+  verbose: true
