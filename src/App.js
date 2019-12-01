@@ -46,10 +46,10 @@ class App extends React.Component {
             </Route>
             <Route path="/">
               <StockCardGroup stocks={this.state.stocks}></StockCardGroup>
+              <div>Built and deployed using Travis CI</div>
             </Route>
           </Switch>
         </Container>
-        <div>Built and deployed using Travis CI</div>
       </Router>
     );
   }
