@@ -49,6 +49,7 @@ class App extends React.Component {
             </Route>
           </Switch>
         </Container>
+        <div>Built and deployed using Travis CI</div>
       </Router>
     );
   }
